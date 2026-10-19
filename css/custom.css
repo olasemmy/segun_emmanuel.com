@@ -1,0 +1,260 @@
+/* Custom sections added in the 2026 update. Matches the dark/purple template. */
+
+.tm_section{
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 120px 0 100px 0;
+}
+.tm_section .awilo_fn_title{
+	margin-bottom: 60px;
+}
+.tm_section .awilo_fn_title h3{
+	font-size: 56px;
+	line-height: 64px;
+}
+.tm_lead{
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #bbb;
+	max-width: 760px;
+	margin: 20px 0 0 0;
+}
+
+/* Hero extras */
+.tm_now{
+	display: block;
+	width: fit-content;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin-left: 0;
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #eee;
+	border: 1px solid #ae45ff;
+	border-radius: 30px;
+	padding: 8px 18px;
+	margin: 0 0 26px 0;
+}
+.tm_now b{
+	color: #ae45ff;
+	font-weight: 700;
+}
+.about_btn .tm_btn_row{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+/* Grids sit below the floated section titles */
+.tm_cases,
+.tm_edu,
+.tm_skillgroups,
+.tm_panel{
+	clear: both;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* Case studies */
+.tm_cases{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.tm_case{
+	background: #1e1427;
+	border: 1px solid rgba(174, 69, 255, .25);
+	padding: 36px 32px;
+	transition: border-color .3s ease, transform .3s ease;
+}
+.tm_case:hover{
+	border-color: #ae45ff;
+	transform: translateY(-4px);
+}
+.tm_case .tm_tag{
+	font-family: 'Muli', sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #ae45ff;
+	margin: 0 0 14px 0;
+}
+.tm_case h3{
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 34px;
+	color: #eee;
+	margin: 0 0 14px 0;
+}
+.tm_case p{
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	line-height: 27px;
+	color: #bbb;
+	margin: 0 0 12px 0;
+}
+.tm_case a,
+.tm_case a.awilo_fn_circle_link{
+	color: #ae45ff;
+}
+.tm_case .tm_meta{
+	font-size: 14px;
+	color: #777;
+	margin: 18px 0 0 0;
+}
+
+/* Education and certifications */
+.tm_edu{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+	list-style: none;
+	margin: 0 0 50px 0;
+	padding: 0;
+}
+.tm_edu li{
+	border-left: 3px solid #ae45ff;
+	padding: 4px 0 4px 24px;
+}
+.tm_edu .tm_when{
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	color: #777;
+	margin: 0 0 6px 0;
+}
+.tm_edu h3{
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	color: #eee;
+	margin: 0 0 4px 0;
+}
+.tm_edu .tm_where{
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #bbb;
+	margin: 0;
+}
+.tm_edu a{
+	color: #ae45ff;
+}
+.tm_subtitle{
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #eee;
+	margin: 0 0 24px 0;
+}
+
+/* Skills as grouped chips */
+.tm_skillgroups{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px 50px;
+}
+.tm_skillgroup h4{
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #eee;
+	margin: 0 0 16px 0;
+}
+.tm_chips{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.tm_chips li{
+	font-family: 'Muli', sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: #eee;
+	background: #1e1427;
+	border: 1px solid rgba(174, 69, 255, .35);
+	border-radius: 30px;
+	padding: 8px 16px;
+}
+
+/* Sustainability panel */
+.tm_panel{
+	background: #1e1427;
+	border: 1px solid rgba(174, 69, 255, .25);
+	padding: 44px 40px;
+}
+.tm_panel p{
+	font-family: 'Muli', sans-serif;
+	font-size: 17px;
+	line-height: 29px;
+	color: #bbb;
+	margin: 0 0 16px 0;
+}
+.tm_panel p:last-child{
+	margin-bottom: 0;
+}
+.tm_panel strong{
+	color: #eee;
+}
+
+/* Links into the creative sub-portfolios */
+.tm_links{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px 28px;
+	list-style: none;
+	margin: 28px 0 0 0;
+	padding: 0;
+}
+.tm_links a{
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	color: #ae45ff;
+	border-bottom: 1px solid transparent;
+}
+.tm_links a:hover{
+	border-bottom-color: #ae45ff;
+}
+
+@media(max-width: 1040px){
+	.tm_cases{
+		grid-template-columns: 1fr;
+	}
+	.tm_section .awilo_fn_title h3{
+		font-size: 44px;
+		line-height: 52px;
+	}
+}
+@media(max-width: 768px){
+	.tm_section{
+		padding: 70px 0 60px 0;
+	}
+	.tm_section .awilo_fn_title{
+		margin-bottom: 36px;
+	}
+	.tm_section .awilo_fn_title h3{
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.tm_edu,
+	.tm_skillgroups{
+		grid-template-columns: 1fr;
+	}
+	.tm_panel{
+		padding: 30px 24px;
+	}
+	.tm_lead{
+		font-size: 16px;
+		line-height: 27px;
+	}
+}
