@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="fr"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="fr"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="fr"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="fr"> <!--<![endif]-->
 
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<meta name="description" content="Awilo - HTML5 and CSS3 Template">
+<meta name="description" content="Projets de design graphique de Segun Emmanuel Oladele.">
 <meta name="author" content="Frenify">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>Graphic Design Portfolio | Segun Emmanuel Oladele</title>
+<title>Portfolio de design graphique | Segun Emmanuel Oladele</title>
+<script>document.documentElement.className+=' i18n-pending';setTimeout(function(){document.documentElement.className=document.documentElement.className.replace(' i18n-pending','');},1500);</script>
+<noscript><style>.i18n-pending body{visibility:visible!important}</style></noscript>
 
 	
 <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -40,7 +42,12 @@
 		<div class="logo">
 			<a href="index.html"><img class="desktop_logo" src="img/logo-header.png" alt="" /></a>
 		</div>
-		<div class="hamburger_rapper">
+		<div class="tm_lang" role="group" aria-label="Language / Langue">
+				<button type="button" class="tm_lang_btn" data-lang="fr" aria-pressed="true">FR</button>
+				<span class="tm_lang_sep">/</span>
+				<button type="button" class="tm_lang_btn" data-lang="en" aria-pressed="false">EN</button>
+			</div>
+			<div class="hamburger_rapper">
 			<div class="hamburger hamburger--spring">
 				<div class="hamburger-box">
 					<div class="hamburger-inner"></div>
@@ -64,6 +71,7 @@
 						<li><a href="index.html#information">What I do</a></li>
 						<li><a href="index.html#experience">Experience</a></li>
 						<li><a href="index.html#brands">Brand Work</a></li>
+						<li><a href="index.html#websites">Websites</a></li>
 						<li><a href="index.html#education">Education</a></li>
 						<li><a href="index.html#sustainability">Sustainability</a></li>
 						<li><a href="index.html#skills">Skills</a></li>
@@ -263,21 +271,21 @@
 
 					<div class="empty_notice"><span>Please Fill Required Fields</span></div>
 					<!-- /RETURN MESSAGES -->
-					<input type="hidden" name="_subject" value="My Webiste!">
+					<input type="hidden" name="_subject" value="New message from your website">
 					<input type="hidden" name="_next" value="https://olasemmy.github.io/segun_emmanuel.com/thanks.html">
 						<input type="hidden" name="_autoresponse" value="thank you for contacting Segun. You will be replied to shortly">
 						<input type="hidden" name="_captcha" value="false">
 					
 						<div class="your-name">
 						
-						<input class="name" type="text" placeholder="Name"/>
+						<input class="name" type="text" name="name" placeholder="Name"/>
 						
 					</div>
 					<div class="your-email">
-						<input class="email" type="text" placeholder="Email"/>
+						<input class="email" type="email" name="email" placeholder="Email"/>
 					</div>
 					<div class="your-messagse">
-						<textarea class="message" placeholder="Message" cols="3" rows="8"></textarea>
+						<textarea class="message" name="message" placeholder="Message" cols="3" rows="8"></textarea>
 					</div>
 					<div class="button">
 						<a href="#" class="awilo_fn_main_button awilo_fn_contact_sendbtn">
@@ -381,6 +389,7 @@
 <script src="js/jarallax.js"></script>
 <script src="js/nicescroll.js"></script>
 <script src="js/magnific-popup.js"></script>
+<script src="js/lang.js"></script>
 <script src="js/init.js"></script>
 <!-- /SCRIPTS -->
 
