@@ -15,7 +15,7 @@
  "Sustainability": "Développement durable",
  "Skills": "Compétences",
  "Creative Work": "Travaux créatifs",
- "Welcome to my world": "Bienvenue dans mon univers",
+ "Welcome to my portfolio": "Bienvenue sur mon portfolio",
  "Brand & Project Manager": "Responsable de marque et chef de projet",
  "Now:": "Actuellement :",
  "MSc International Management & Sustainability at IAE Dijon · open to internships and alternance in France and Europe": "Master Management international et développement durable à l’IAE Dijon · ouvert aux stages et à l’alternance en France et en Europe",
