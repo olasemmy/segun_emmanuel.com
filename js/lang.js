@@ -355,6 +355,8 @@
 		translateAttributes(lang);
 		translateHead(lang);
 		markButtons(lang);
+		var cvs = document.querySelectorAll('a[href$="cv.pdf"], a[href$="cv-fr.pdf"]');
+		for (var c = 0; c < cvs.length; c++) { cvs[c].setAttribute('href', 'img/' + (lang === 'fr' ? 'cv-fr.pdf' : 'cv.pdf')); }
 		root.setAttribute('lang', lang);
 		root.className = root.className.replace(/\s*i18n-pending/, '');
 	}
