@@ -362,3 +362,9 @@
 	*{animation:none!important;transition:none!important}
 	.awilo_fn_about .about_title h3 strong{background-position:0 0}
 }
+
+/* Prevent sideways scrolling on phones */
+html,body{max-width:100%;overflow-x:hidden}
+.tm_marquee{float:none;display:block;clear:both;width:100%;max-width:100%;overflow:hidden;position:relative;contain:paint;box-sizing:border-box}
+.tm_marquee:after{content:"";display:block;clear:both}
+.tm_orbs span:nth-child(3){right:0}
