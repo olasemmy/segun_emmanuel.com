@@ -286,25 +286,7 @@
 				if(name===''||email===''||message===''){
 					contactForm.find('.empty_notice').slideDown(500).delay(2000).slideUp(500);
 				}else{
-					$.post(
-						"modal/contact.php",
-						{
-							xx_name: name,
-							xx_email: email,
-							xx_message:message,
-						},
-						function(data) {
-							returnMess.append(data);
-							if(returnMess.find('span.contact_error').length){
-								returnMess.slideDown(500).delay(2000).slideUp(500);		
-							}else{
-								returnMess.append("<span class='contact_success'>"+ success +"</span>");
-								returnMess.slideDown(500).delay(4000).slideUp(500);
-							}
-							if(data===""){
-								$("#contact_form")[0].reset();//To reset form fields on success
-							}
-						});
+					contactForm.find('form')[0].submit();
 				}
 				return false;
 
